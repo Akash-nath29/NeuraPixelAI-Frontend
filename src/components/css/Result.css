@@ -1,0 +1,33 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.denoised-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #212121;
+}
+
+.download-button:active {
+  background-color: #1d1c1c;
+}
