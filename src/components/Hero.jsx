@@ -31,7 +31,7 @@ const Hero = () => {
 
     try {
       console.log("Sending request to API...");
-      const response = await fetch("http://127.0.0.1:8000/predict/", {
+      const response = await fetch("http://[2409:40e0:2b:97a4:328a:d45f:5c4f:85a3]:8080/predict/", {
         method: "POST",
         body: formData,
       });
